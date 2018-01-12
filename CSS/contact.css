@@ -44,15 +44,8 @@ body {
  }
 
 
-.wrapper {
-	width: 800px;
-	margin: 50px auto;
-	overflow: hidden;
-	background-position: center;
-}
-
 .button {
-    background-color: #4CAF50; /* Green */
+    background-color: white; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -60,21 +53,18 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    transition-duration: 0.4s;
+
 }
 
-    .button a {
-        -webkit-transition-duration: 0.4s; /* Safari */
-        transition-duration: 0.4s;
-    }
 
-    .button a:hover {
-        background-color: #4CAF50; /* Green */
-        color: white;
-    }
+.button:hover {
+    background-color: white; /* Green */
+    color: black;
+}
 
-    #button1 {
-        background-color: white;
-        color: black;
-        border: 2px solid #4CAF50; /* Green */
-    }
+.button {
+    background-color: #4CAF50;
+    color: black;
+    border: 2px solid black; 
 }
