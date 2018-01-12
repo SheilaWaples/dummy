@@ -1,0 +1,17 @@
+body{
+	background-color: #DBF3ED
+		
+}
+
+h1{
+	font: arial, sans-serif;
+	font-size: 80px;
+	margin-left: 10px;
+}
+
+
+img{
+	border-radius: 50%;
+	float:left;
+	margin-right: 10px;
+}
