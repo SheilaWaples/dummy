@@ -3,10 +3,17 @@ body{
 		
 }
 
+
+
+
+
+
+
+
 h1{
-	font: arial, sans-serif;
+	font-family: Arial, Helevetica, sans-serif;
 	font-size: 80px;
-	margin-left: 10px;
+	margin-left: 50px;
 }
 
 
@@ -14,4 +21,22 @@ img{
 	border-radius: 50%;
 	float:left;
 	margin-right: 10px;
+	padding-left: 30px;
 }
+
+p {
+	font-family: Arial, Helevetica, sans-serif;
+	text-align: justify
+	
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 450px;
+    padding-right: 200px;
+}
+
+h4{ 
+	font-size: 40px;
+	font-style: italic;
+	font-weight: bold;
+	margin-left: 20px;
+ }
