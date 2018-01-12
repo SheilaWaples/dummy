@@ -347,6 +347,118 @@ body {
 
 }
 
-@media all and (max-width:480px){}
+@media all and (max-width:480px){
+.title {
+    text-align: center;
+    width: 0 auto;
+    margin: 20px;
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: 200%;
+}
 
+.navbar {
+    background-color: slategrey;
+    overflow: hidden;
+ }
+
+ .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+ }
+
+ .navbar a:hover {
+    background-color: lightgrey;
+    color: black;
+ }
+
+ .active {
+    background-color: black;
+    color: white;
+
+ }
+
+.images {
+        width: 400px;
+        height: 400px;
+        margin: 15px;
+        border: solid;
+        background-size: 100% 100%;
+        position: relative;
+        left: 30px;
+        }    
+
+.images:hover{transform:scale(1.05);
+    }
+    
+#cat1 {background-image:url('../images/cat2.jpg');
+    }
+
+#cat2 {background-image:url('../images/cat1.jpg');
+    }       
+
+#cat3 {background-image:url('../images/cat3.jpeg');
+     }
+
+.wrapper {width: 768px;
+    margin: 20px auto;
+    background-position: center;
+        }
+
+.wrapper2 {width: 300px;
+            height: 200px;
+           background-position: center;
+            margin: 20px auto;
+            overflow: hidden;
+            background-color: slategrey;
+            border: solid;
+         }
+
+.text {font-family: arial,sans-serif;
+        text-align: center;
+        }
+
+#text1 {font-size: 20px;
+        margin: 10px;
+        margin-bottom: 10px;
+        }
+
+#text2 {font-size: 60px;
+        }
+
+.images2 {width: 300px;
+        height: 300px;
+        margin: 20px;
+        border: solid;
+        background-size: 100% 100%;
+        } 
+
+.images2:hover {transform:scale(1.5);
+        }
+
+#cat4 {background-image:url('../images/happycat.jpg');}
+
+.paragraph {margin: 30px;
+            font-size: 20px;
+            text-indent: 35px;
+            font-family: arial, sans-serif;
+            }
+
+#adoption: {float: left;
+        }
+
+#paragraph1 {margin: 20px;
+            }
+
+#paragraph2 {margin: 20px;
+            }
+
+
+}
 
