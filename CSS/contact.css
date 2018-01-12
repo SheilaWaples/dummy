@@ -1,5 +1,6 @@
 * {
 	margin: 0;
+    width: 0 auto;
 
 }
 
@@ -13,7 +14,7 @@ body {
     text-align: center;
     width: 0 auto;
     margin: 20px;
-    color: white;
+    color: solid black;
 }
 
 .navbar {
@@ -43,28 +44,36 @@ body {
 
  }
 
+ .wrapper {
+    position: absolute;
+    overflow: hidden;
+    transition: .5s ease;
+    top: 50%;
+ }
+
 
 .button {
-    background-color: white; /* Green */
+    background-color: white;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 30px 64px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 24px;
     transition-duration: 0.4s;
 
 }
 
 
 .button:hover {
-    background-color: white; /* Green */
+    background-color: white;
     color: black;
 }
 
 .button {
     background-color: #4CAF50;
     color: black;
-    border: 2px solid black; 
+    border: 2px solid black;
+
 }
