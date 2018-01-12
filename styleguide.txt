@@ -1,0 +1,10 @@
+
+Font: arial, sans-serif
+
+background color: #DBF3ED
+		(219,243,237)
+
+Title: Nine Lives, One Forever Home
+
+	-always write out “nine” and “one”
+
