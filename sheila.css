@@ -1,0 +1,46 @@
+body{
+	background-color: #DBF3ED
+		
+}
+
+
+
+
+
+
+
+
+h1{
+	font-family: Arial, Helevetica, sans-serif;
+	font-size: 80px;
+	margin-left: 50px;
+}
+
+
+img{
+	border-radius: 50%;
+	float:left;
+	margin-right: 10px;
+	padding-left: 30px;
+}
+
+.sepia{
+	-webkit-filter: sepia(100%); filter: sepia(100%);
+}
+
+p {
+	font-family: Arial, Helevetica, sans-serif;
+	text-align: justify
+	text-indent: 150px;
+	
+    padding-right: 30px;
+    padding-bottom: 30px;
+   padding-left: 475px;
+}
+
+h4{ 
+	font-size: 40px;
+	font-style: italic;
+	font-weight: bold;
+	margin-left: 50px;
+ }
