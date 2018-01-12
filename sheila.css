@@ -5,8 +5,16 @@ body{
 
 
 
+.navbar{
+	background-color: slategrey;
+}
 
 
+#mynavbar{
+	height: 50px;
+	width: 500px;
+	background-color: slategrey;
+}
 
 
 
@@ -24,8 +32,8 @@ img{
 	padding-left: 30px;
 }
 
-.sepia{
-	-webkit-filter: sepia(100%); filter: sepia(100%);
+.saturate{
+	-webkit-filter: saturate(100%); filter: saturate(100%);
 }
 
 p {

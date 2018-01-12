@@ -1,13 +1,12 @@
 * {
-	margin: 0;
-
+	margin: 0 auto;
 }
 
 body {
 	background-color: #def3ed;
-	background-blend-mode: screen;
 }
 
+.wrappermain {overflow: hidden;}
 
 .title {
     text-align: center;
@@ -39,12 +38,6 @@ body {
     color: black;
  }
 
- .active {
-    background-color: black;
-    color: white;
-
- }
-
 
 .images {
         width: 400px;
@@ -70,8 +63,7 @@ body {
         }
 
 .wrapper {width: 1400px;
-    margin: 40px auto;
-    overflow: hidden;
+    margin: auto;
     background-position: center;
 }
 
@@ -113,6 +105,248 @@ body {
             text-indent: 35px;
             font-family: arial, sans-serif;}
 
+#adoption {position: relative;
+            left: 20%;}
+
 #paragraph1 {margin: 30px;}
 
 #paragraph2 {margin: 30px;}
+
+@media all and (max-width: 992px) {
+
+.wrappermain {overflow: hidden;}
+
+.title {
+    text-align: center;
+    width: 0 auto;
+    margin: 10px;
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: 200%;
+}
+
+.navbar {
+    background-color: slategrey;
+    overflow: hidden;
+ }
+
+ .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+ }
+
+ .navbar a:hover {
+    background-color: lightgrey;
+    color: black;
+ }
+
+ .active {
+    background-color: black;
+    color: white;
+
+ }
+
+.images {
+        width: 200px;
+        height: 200px;
+        margin: 15px;
+        border: solid;
+        background-size: 100% 100%;
+        float: left;
+        position: relative;
+        left: 140px;
+        }    
+
+.images:hover{transform:scale(1.05);
+}
+    
+#cat1 {background-image:url('../images/cat1.jpg');
+    }
+
+#cat2 {background-image:url('../images/cat2.jpg');
+        }       
+
+#cat3 {background-image:url('../images/cat3.jpeg');
+        }
+
+.wrapper {width: 992px;
+    margin: 20px auto;
+    overflow: hidden;
+    background-position: center;
+}
+
+.wrapper2 {width: 700px;
+            height: 200px;
+           background-position: center;
+            margin: 20px auto;
+            overflow: hidden;
+            background-color: slategrey;
+            border: solid;
+       }
+
+.text {font-family: arial,sans-serif;
+        text-align: center;
+        }
+
+#text1 {font-size: 25px;
+        margin: 30px;
+        margin-bottom: 10px;
+        }
+
+#text2 {font-size: 60px;}
+
+.images2 {width: 400px;
+        height: 400px;
+        margin: 30px;
+        border: solid;
+        background-size: 100% 100%;
+        }
+
+.images2:hover{transform:scale(1.1);
+}
+
+#cat4 {background-image:url('../images/happycat.jpg');
+        float:left;}
+
+.paragraph {margin: 30px;
+            font-size: 20px;
+            text-indent: 35px;
+            font-family: arial, sans-serif;}
+
+#adoption {position: relative;
+            left: 10%;}
+
+#paragraph1 {margin: 20px;}
+
+#paragraph2 {margin: 20px;}
+
+}
+
+@media all and (min-width: 481px) and (max-width: 768px){
+
+
+.wrappermain {overflow: hidden;}
+
+.title {
+    text-align: center;
+    width: 0 auto;
+    margin: 10px;
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: 200%;
+}
+
+.navbar {
+    background-color: slategrey;
+    overflow: hidden;
+ }
+
+ .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+ }
+
+ .navbar a:hover {
+    background-color: lightgrey;
+    color: black;
+ }
+
+ .active {
+    background-color: black;
+    color: white;
+
+ }
+
+.images {
+        width: 200px;
+        height: 200px;
+        margin: 15px;
+        border: solid;
+        background-size: 100% 100%;
+        float: left;
+        position: relative;
+        left: 30px;
+        }    
+
+.images:hover{transform:scale(1.05);
+}
+    
+#cat1 {background-image:url('../images/cat1.jpg');
+    }
+
+#cat2 {background-image:url('../images/cat2.jpg');
+        }       
+
+#cat3 {background-image:url('../images/cat3.jpeg');
+        }
+
+.wrapper {width: 768px;
+    margin: 20px auto;
+    overflow: hidden;
+    background-position: center;
+}
+
+.wrapper2 {width: 700px;
+            height: 200px;
+           background-position: center;
+            margin: 20px auto;
+            overflow: hidden;
+            background-color: slategrey;
+            border: solid;
+       }
+
+.text {font-family: arial,sans-serif;
+        text-align: center;
+        }
+
+#text1 {font-size: 25px;
+        margin: 30px;
+        margin-bottom: 10px;
+        }
+
+#text2 {font-size: 60px;}
+
+.images2 {width: 350px;
+        height: 350px;
+        margin: 20px;
+        border: solid;
+        background-size: 100% 100%;
+        }
+        
+
+.images2:hover{transform:scale(1.1);
+}
+
+#cat4 {background-image:url('../images/happycat.jpg');
+        float:left;}
+
+.paragraph {margin: 30px;
+            font-size: 20px;
+            text-indent: 35px;
+            font-family: arial, sans-serif;}
+
+#adoption {position: relative;
+            left: 5%;}
+
+#paragraph1 {margin: 20px;}
+
+#paragraph2 {margin: 20px;}
+
+
+}
+
+@media all and (max-width:480px){}
+
+
