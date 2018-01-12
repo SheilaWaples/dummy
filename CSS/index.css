@@ -13,7 +13,9 @@ body {
     text-align: center;
     width: 0 auto;
     margin: 20px;
-    color: white;
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: 250%;
 }
 
 .navbar {
@@ -44,10 +46,30 @@ body {
  }
 
 
-.wrapper {
-	width: 800px;
-	margin: 50px auto;
-	overflow: hidden;
-	background-position: center;
+.images {
+        width: 400px;
+        height: 300px;
+        margin: 15px;
+        border: solid;
+        background-size: 100% 100%;
+        float: left;
+        position: relative;
+        left: 30px;
+        }
 
+.images hover {}
+    
+#cat1 {background-image:url('../images/cat1.jpg');
+    }
+
+#cat2 {background-image:url('../images/cat2.jpg');
+        }       
+
+#cat3 {background-image:url('../images/cat3.jpeg');
+        }
+
+.wrapper {width: 1400px;
+    margin: 40px auto;
+    overflow: hidden;
+    background-position: center;
 }
