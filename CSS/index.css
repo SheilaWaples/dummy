@@ -48,6 +48,7 @@ body {
         float: left;
         position: relative;
         left: 30px;
+        border-radius: 50%;
         }    
 
 .images:hover{transform:scale(1.2);
@@ -94,7 +95,7 @@ body {
         background-size: 100% 100%;
         }
 
-.images2:hover{transform:scale(1.2);
+.images2:hover{transform:scale(1.1);
 }
 
 #cat4 {background-image:url('../images/happycat.jpg');
@@ -161,9 +162,10 @@ body {
         float: left;
         position: relative;
         left: 140px;
+        border-radius: 50%;
         }    
 
-.images:hover{transform:scale(1.05);
+.images:hover{transform:scale(1.1);
 }
     
 #cat1 {background-image:url('../images/cat1.jpg');
@@ -278,6 +280,7 @@ body {
         float: left;
         position: relative;
         left: 30px;
+        border-radius: 50%;
         }    
 
 .images:hover{transform:scale(1.05);
@@ -392,6 +395,7 @@ body {
         background-size: 100% 100%;
         position: relative;
         left: 30px;
+        border-radius: 50%;
         }    
 
 .images:hover{transform:scale(1.05);
@@ -432,33 +436,37 @@ body {
 #text2 {font-size: 60px;
         }
 
-.images2 {width: 300px;
-        height: 300px;
+.images2 {width: 350px;
+        height: 350px;
         margin: 20px;
         border: solid;
         background-size: 100% 100%;
+        border-radius: 50%;
         } 
 
-.images2:hover {transform:scale(1.5);
+.images2:hover {transform:scale(1.2);
         }
 
-#cat4 {background-image:url('../images/happycat.jpg');}
 
-.paragraph {margin: 30px;
+#cat4 {background-image:url('../images/happycat.jpg');
+        position: relative;
+        left: 40px;}
+
+.paragraph {margin: 10px;
             font-size: 20px;
             text-indent: 35px;
             font-family: arial, sans-serif;
+            float: left;
             }
 
-#adoption: {float: left;
-        }
+#adoption {position: relative;
+            left: 100px;}
 
 #paragraph1 {margin: 20px;
             }
 
 #paragraph2 {margin: 20px;
+
             }
-
-
 }
 
