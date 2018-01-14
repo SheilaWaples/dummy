@@ -5,16 +5,7 @@ body{
 
 
 
-.navbar{
-	background-color: slategrey;
-}
 
-
-#mynavbar{
-	height: 50px;
-	width: 500px;
-	background-color: slategrey;
-}
 
 
 
@@ -32,18 +23,14 @@ img{
 	padding-left: 30px;
 }
 
-.saturate{
-	-webkit-filter: saturate(100%); filter: saturate(100%);
-}
-
+.
 p {
 	font-family: Arial, Helevetica, sans-serif;
 	text-align: justify
-	text-indent: 150px;
-	
+	margin: left 200px;
     padding-right: 30px;
     padding-bottom: 30px;
-   padding-left: 475px;
+    padding-left: 450px;
 }
 
 h4{ 
