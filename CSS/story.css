@@ -1,0 +1,115 @@
+ * {
+	margin: 0;
+    width: 0 auto;
+
+}
+
+body{
+	background-color: #DBF3ED
+		
+}
+
+
+.navbar {
+    background-color: slategrey;
+    overflow: hidden;
+ }
+
+ .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+ }
+
+ .navbar a:hover {
+    background-color: lightgrey;
+    color: black;
+ }
+
+ .active {
+    background-color: black;
+    color: white;
+
+ }
+
+ .wrapper {
+    width: 800px;
+    margin: 100px auto;
+    overflow: hidden;
+    
+ }
+
+h1{
+	font-family: Arial, Helevetica, sans-serif;
+	font-size: 80px;
+	margin-left: 50px;
+}
+
+
+img{
+	border-radius: 50%;
+	float:left;
+	margin-right: 10px;
+	padding-left: 30px;
+}
+
+.saturate{
+	-webkit-filter: saturate(100%); filter: saturate(100%);
+}
+
+p {
+	font-family: Arial, Helevetica, sans-serif;
+	text-align: justify
+	text-indent: 150px;
+	
+    padding-right: 30px;
+    padding-bottom: 30px;
+   padding-left: 30px;
+}
+
+h4{ 
+	font-size: 40px;
+	font-style: italic;
+	font-weight: bold;
+	margin-left: 50px;
+ }
+
+ @media all and (max-width: 480px){
+    
+    .wrapper {
+        width: 80%;
+        margin: 100px auto;
+    }
+    .saturate {
+        width: 150px;
+        height: 150px;
+        float: left;
+        margin: 5px 0 5px 50px
+    }
+    
+}
+
+@media all and (min-width: 481px) and (max-width: 767px){
+    
+    .wrapper {
+        width: 80%
+
+    }
+    .saturate {
+        width: 250px;
+        height: 250px;
+        float: left;
+        margin: 5px 0 5px 50px
+    }
+    
+
+}
+
+@media all and (min-width: 768px) and (max-width: 992px){
+    
+}
