@@ -5,7 +5,7 @@ body{
 
 .navbar {
     background-color: slategrey;
-    overflow: ;
+    overflow: hidden;
  }
 
  .navbar a {
