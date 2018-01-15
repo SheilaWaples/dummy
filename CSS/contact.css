@@ -15,7 +15,10 @@ body {
     text-align: center;
     width: 0 auto;
     margin: 20px;
-    color: solid black;
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: 200%;
+
 }
 
 .navbar {

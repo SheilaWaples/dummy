@@ -1,3 +1,9 @@
+ * {
+	margin: 0;
+    width: 0 auto;
+
+}
+
 body{
 	background-color: #DBF3ED
 		
@@ -31,7 +37,12 @@ body{
 
  }
 
-
+ .wrapper {
+    width: 800px;
+    margin: 100px auto;
+    overflow: hidden;
+    
+ }
 
 h1{
 	font-family: Arial, Helevetica, sans-serif;
@@ -58,7 +69,7 @@ p {
 	
     padding-right: 30px;
     padding-bottom: 30px;
-   padding-left: 475px;
+   padding-left: 30px;
 }
 
 h4{ 
@@ -67,3 +78,38 @@ h4{
 	font-weight: bold;
 	margin-left: 50px;
  }
+
+ @media all and (max-width: 480px){
+    
+    .wrapper {
+        width: 80%;
+        margin: 100px auto;
+    }
+    .saturate {
+        width: 150px;
+        height: 150px;
+        float: left;
+        margin: 5px 0 5px 50px
+    }
+    
+}
+
+@media all and (min-width: 481px) and (max-width: 767px){
+    
+    .wrapper {
+        width: 80%
+
+    }
+    .saturate {
+        width: 250px;
+        height: 250px;
+        float: left;
+        margin: 5px 0 5px 50px
+    }
+    
+
+}
+
+@media all and (min-width: 768px) and (max-width: 992px){
+    
+}
