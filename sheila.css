@@ -3,6 +3,36 @@ body{
 		
 }
 
+.navbar {
+    background-color: slategrey;
+    overflow: hidden;
+ }
+
+ .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+ }
+
+ .navbar a:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+.wrapper {
+  margin-right: auto; 
+  margin-left:  auto; 
+
+  max-width: 960px; 
+
+  padding-right: 10px; 
+  padding-left:  10px; 
+}
 
 
 
@@ -20,10 +50,37 @@ img{
 	border-radius: 50%;
 	float:left;
 	margin-right: 10px;
-	padding-left: 30px;
+	padding-left: 10px;
 }
 
-.
+.rotate90{
+	-webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+@media all and (max-width: 480px){
+
+	body {/*background-color: blue;*/
+	}
+}
+
+@media all and (min-width: 481px) and (max-width:767px)
+{
+
+	body {/*background-color: yellow; */
+	}
+}
+
+@media all and (min-width: 768px) and (max-width:992px)
+{
+
+	body {/*background-color: pink;*/
+	}
+}
+
 p {
 	font-family: Arial, Helevetica, sans-serif;
 	text-align: justify
