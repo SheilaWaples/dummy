@@ -1,21 +1,20 @@
-<<<<<<< HEAD
-=======
+
  * {
 	margin: 0;
     width: 0 auto;
 
 }
 
->>>>>>> 14c5fe7aac126c74a3b71f4442cfda1abcd26303
+
 body{
 	background-color: #DBF3ED
 		
 }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 14c5fe7aac126c74a3b71f4442cfda1abcd26303
+
+
+
 .navbar {
     background-color: slategrey;
     overflow: hidden;
@@ -35,7 +34,7 @@ body{
  .navbar a:hover {
     background-color: lightgrey;
     color: black;
-<<<<<<< HEAD
+
 }
 
 .wrapper {
@@ -52,7 +51,7 @@ body{
 
 
 
-=======
+
  }
 
  .active {
@@ -67,7 +66,7 @@ body{
     overflow: hidden;
     
  }
->>>>>>> 14c5fe7aac126c74a3b71f4442cfda1abcd26303
+
 
 h1{
 	font-family: Arial, Helevetica, sans-serif;
@@ -80,7 +79,7 @@ img{
 	border-radius: 50%;
 	float:left;
 	margin-right: 10px;
-<<<<<<< HEAD
+
 	padding-left: 10px;
 }
 
@@ -116,24 +115,24 @@ img{
 
 .saturate{
 	-webkit-filter: saturate(100%); filter: saturate(100%);
->>>>>>> 14c5fe7aac126c74a3b71f4442cfda1abcd26303
+
 }
 
 p {
 	font-family: Arial, Helevetica, sans-serif;
 	text-align: justify
-<<<<<<< HEAD
+
 	margin: left 200px;
     padding-right: 30px;
     padding-bottom: 30px;
     padding-left: 450px;
-=======
+
 	text-indent: 150px;
 	
     padding-right: 30px;
     padding-bottom: 30px;
    padding-left: 30px;
->>>>>>> 14c5fe7aac126c74a3b71f4442cfda1abcd26303
+
 }
 
 h4{ 
@@ -141,9 +140,9 @@ h4{
 	font-style: italic;
 	font-weight: bold;
 	margin-left: 50px;
-<<<<<<< HEAD
+
  }
-=======
+
  }
 
  @media all and (max-width: 480px){
@@ -180,4 +179,4 @@ h4{
 @media all and (min-width: 768px) and (max-width: 992px){
     
 }
->>>>>>> 14c5fe7aac126c74a3b71f4442cfda1abcd26303
+
